@@ -1,0 +1,17 @@
+<?xml version="0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.anime" name="[COLOR red]anime-[/COLOR] Repo" version="0" provider-name="anime a">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="anime Repo">
+        <info>https:https://storage.kanzaki.ru/ANIME___/</info>
+        <checksum>https:https://www.animegafirex.com/2019/07/animes-en-espanol-latino_18.html</checksum>
+        <datadir zip="true">https://www.animegafirex.com/2019/07/animes-en-espanol-latino_18.html</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para anime-n</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
